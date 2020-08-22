@@ -1,11 +1,8 @@
 {% extends "base.html" %}
 {% block title %}Home{% endblock %}
 {% block body %}
-    <h1>Welcome</h1>
-    <p>Hello from a Twig template, {{ name }}!</p>
-    <ul>
-        {% for colour in colours %}
-        <li>{{ colour }}</li>
-        {% endfor %}
-    </ul>
+    <h1>Bienvenue</h1>
+    <p>Bonjour, bienvenue sur Tachete, {{ name }}!</p>
+    <span><a href="/login/index">Se connecter</a> | </span>
+    <span><a href="/register/index">Créer un compte</a></span>
 {% endblock %}

@@ -10,10 +10,10 @@ class Post extends \Core\Model
 
     public static function getAll()
     {
-        $host = 'localhost:8889';
-        $dbname = 'mvc';
-        $username = 'admin';
-        $password = 'admin';
+        //$host = 'localhost:8889';
+        //$dbname = 'mvc';
+        //$username = 'admin';
+        //$password = 'admin';
 
         try {
             $db = static::getDB();

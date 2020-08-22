@@ -17,3 +17,92 @@ Stack trace: #0 /Applications/MAMP/htdocs/framework/Core/Router.php(66): Core\Co
 #1 /Applications/MAMP/htdocs/framework/public/index.php(58): Core\Router->dispatch('posts/nee')
 #2 {main}
 Thrown in '/Applications/MAMP/htdocs/framework/Core/Controller.php' on line 23
+[22-Aug-2020 20:46:38 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Clientorders not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('clientorders/in...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[22-Aug-2020 20:46:46 UTC] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "ClientOrders/index.html" (looked into: ../App/Views).'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Loader/FilesystemLoader.php(161): Twig\Loader\FilesystemLoader->findTemplate('ClientOrders/in...')
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(351): Twig\Loader\FilesystemLoader->getCacheKey('ClientOrders/in...')
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(445): Twig\Environment->getTemplateClass('ClientOrders/in...')
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(423): Twig\Environment->loadTemplate('ClientOrders/in...')
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(384): Twig\Environment->load('ClientOrders/in...')
+#5 /Users/admin/DEV/workspace/php/tachete/Core/View.php(26): Twig\Environment->render('ClientOrders/in...', Array)
+#6 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(12): Core\View::renderTemplate('ClientOrders/in...', Array)
+#7 [internal function]: App\Controllers\Orders->indexAction()
+#8 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#9 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#10 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/index')
+#11 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 265
+[22-Aug-2020 20:46:47 UTC] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "ClientOrders/index.html" (looked into: ../App/Views).'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Loader/FilesystemLoader.php(161): Twig\Loader\FilesystemLoader->findTemplate('ClientOrders/in...')
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(351): Twig\Loader\FilesystemLoader->getCacheKey('ClientOrders/in...')
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(445): Twig\Environment->getTemplateClass('ClientOrders/in...')
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(423): Twig\Environment->loadTemplate('ClientOrders/in...')
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(384): Twig\Environment->load('ClientOrders/in...')
+#5 /Users/admin/DEV/workspace/php/tachete/Core/View.php(26): Twig\Environment->render('ClientOrders/in...', Array)
+#6 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(12): Core\View::renderTemplate('ClientOrders/in...', Array)
+#7 [internal function]: App\Controllers\Orders->indexAction()
+#8 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#9 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#10 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/index')
+#11 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 265
+[22-Aug-2020 20:58:48 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/index/cl...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[22-Aug-2020 20:58:51 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/index/cl...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[22-Aug-2020 20:58:56 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[22-Aug-2020 20:58:58 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[22-Aug-2020 21:17:21 UTC] Uncaught exception: 'Exception' with message 'Method clientsAction not found in controllerApp\Controllers\Orders'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('clients', Array)
+#1 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/clients')
+#2 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Controller.php' on line 23
+[22-Aug-2020 21:18:19 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Login not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[22-Aug-2020 21:21:40 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Login not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[22-Aug-2020 21:21:41 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Login not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[22-Aug-2020 21:22:27 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Login not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[22-Aug-2020 21:22:28 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Login not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[22-Aug-2020 21:22:29 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Login not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[22-Aug-2020 21:22:29 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Login not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[22-Aug-2020 21:42:29 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[22-Aug-2020 21:42:30 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77

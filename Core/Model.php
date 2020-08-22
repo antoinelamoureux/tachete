@@ -15,7 +15,7 @@ abstract class Model
 
         if ($db === null) {
             // $host = 'localhost:8889';
-            // $dbname = 'mvc';
+            // $dbname = 'tachete';
             // $username = 'admin';
             // $password = 'admin';
 

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Commandes par client{% endblock %}
+{% block body %}
+    <h1>Liste des commandes par client</h1>
+ <br><br>
+        {% for client in clients %}
+            <p>{{ client.CustomerID }}</p>
+        {% endfor %}
+{% endblock %}
