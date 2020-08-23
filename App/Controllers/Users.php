@@ -36,7 +36,7 @@ class Users extends \Core\Controller
                 'firstname' => $firstname
             ]);
         } else {
-            echo 'Merci de vous connecter.';
+            View::renderTemplate('Users/noaccess.html');
         }
     }
 }

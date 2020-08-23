@@ -270,3 +270,242 @@ Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php
 #4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('Users/index')
 #5 {main}
 Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php' on line 32
+[23-Aug-2020 17:55:13 UTC] Uncaught exception: 'Exception' with message 'Method clientsordersAction not found in controllerApp\Controllers\Orders'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('clientsorders', Array)
+#1 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/clientso...')
+#2 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Controller.php' on line 23
+[23-Aug-2020 18:04:20 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unexpected token "operator" of value "/".'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(91): Twig\ExpressionParser->parseExpression(21)
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(166): Twig\ExpressionParser->parseExpression()
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TokenParser/BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#5 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#6 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(122): Twig\Parser->subparse(NULL, false)
+#7 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(445): Twig\Environment->loadClass('__TwigTemplate_...', 'Orders/clientso...', NULL)
+#11 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(423): Twig\Environment->loadTemplate('Orders/clientso...')
+#12 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(384): Twig\Environment->load('Orders/clientso...')
+#13 /Users/admin/DEV/workspace/php/tachete/Core/View.php(26): Twig\Environment->render('Orders/clientso...', Array)
+#14 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(27): Core\View::renderTemplate('Orders/clientso...', Array)
+#15 [internal function]: App\Controllers\Orders->submitAction()
+#16 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#17 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#18 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/submit')
+#19 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Views/Orders/clientsorders.html' on line 8
+[23-Aug-2020 18:04:42 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unexpected token "operator" of value "/".'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(91): Twig\ExpressionParser->parseExpression(21)
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(166): Twig\ExpressionParser->parseExpression()
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TokenParser/BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#5 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#6 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(122): Twig\Parser->subparse(NULL, false)
+#7 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(445): Twig\Environment->loadClass('__TwigTemplate_...', 'Orders/clientso...', NULL)
+#11 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(423): Twig\Environment->loadTemplate('Orders/clientso...')
+#12 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(384): Twig\Environment->load('Orders/clientso...')
+#13 /Users/admin/DEV/workspace/php/tachete/Core/View.php(26): Twig\Environment->render('Orders/clientso...', Array)
+#14 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(27): Core\View::renderTemplate('Orders/clientso...', Array)
+#15 [internal function]: App\Controllers\Orders->submitAction()
+#16 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#17 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#18 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/submit')
+#19 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Views/Orders/clientsorders.html' on line 8
+[23-Aug-2020 18:05:28 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unexpected token "operator" of value "/".'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(91): Twig\ExpressionParser->parseExpression(21)
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(166): Twig\ExpressionParser->parseExpression()
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TokenParser/BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#5 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#6 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(122): Twig\Parser->subparse(NULL, false)
+#7 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#8 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#9 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#10 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(445): Twig\Environment->loadClass('__TwigTemplate_...', 'Orders/clientso...', NULL)
+#11 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(423): Twig\Environment->loadTemplate('Orders/clientso...')
+#12 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(384): Twig\Environment->load('Orders/clientso...')
+#13 /Users/admin/DEV/workspace/php/tachete/Core/View.php(26): Twig\Environment->render('Orders/clientso...', Array)
+#14 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(27): Core\View::renderTemplate('Orders/clientso...', Array)
+#15 [internal function]: App\Controllers\Orders->submitAction()
+#16 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#17 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#18 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/submit')
+#19 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Views/Orders/clientsorders.html' on line 8
+[23-Aug-2020 18:12:20 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: customerid"'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(25): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 25, Array)
+#1 [internal function]: App\Controllers\Orders->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php' on line 25
+[23-Aug-2020 18:12:40 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: customerid'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(25): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 25, Array)
+#1 [internal function]: App\Controllers\Orders->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php' on line 25
+[23-Aug-2020 18:13:31 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: customerid'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(25): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 25, Array)
+#1 [internal function]: App\Controllers\Orders->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php' on line 25
+[23-Aug-2020 18:14:28 UTC] Uncaught exception: 'ErrorException' with message 'Undefined variable: customerid'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Models/Order.php(42): Core\Error::errorHandler(8, 'Undefined varia...', '/Users/admin/DE...', 42, Array)
+#1 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(26): App\Models\Order::getOrder('client')
+#2 [internal function]: App\Controllers\Orders->submitAction()
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#4 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#5 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/submit')
+#6 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Models/Order.php' on line 42
+[23-Aug-2020 18:41:41 UTC] Uncaught exception: 'Exception' with message 'Method clientAction not found in controllerApp\Controllers\Orders'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('client', Array)
+#1 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/client')
+#2 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Controller.php' on line 23
+[23-Aug-2020 18:41:43 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('public/index.ph...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:44 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('public/index.ph...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:45 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('public/index.ph...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:49 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('public/index.ph...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:50 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('public/index.ph...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:50 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('public/index.ph...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:52 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login.action')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:52 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('verifylogin.do')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:52 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('news.action')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:53 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login.do')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:53 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login_login.act...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:53 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('dashboard.actio...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:53 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('integration/sav...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:54 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('public/index.ph...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:41:55 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('public/index.ph...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 18:42:37 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: employee'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(25): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 25, Array)
+#1 [internal function]: App\Controllers\Orders->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php' on line 25
+[23-Aug-2020 21:08:54 UTC] Uncaught exception: 'Exception' with message 'Method ordersAction not found in controllerApp\Controllers\Orders'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('orders', Array)
+#1 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/orders')
+#2 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Controller.php' on line 23
+[23-Aug-2020 21:11:30 UTC] Uncaught exception: 'ErrorException' with message 'Undefined offset: 0'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(28): Core\Error::errorHandler(8, 'Undefined offse...', '/Users/admin/DE...', 28, Array)
+#1 [internal function]: App\Controllers\Orders->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php' on line 28
+[23-Aug-2020 21:12:13 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: OrderID'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(28): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 28, Array)
+#1 [internal function]: App\Controllers\Orders->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php' on line 28
+[23-Aug-2020 21:20:46 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unexpected token "end of template" ("end of statement block" expected).'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TokenParser/BlockTokenParser.php(60): Twig\TokenStream->expect(3)
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\BlockTokenParser->parse(NULL)
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(122): Twig\Parser->subparse(NULL, false)
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#5 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#6 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(445): Twig\Environment->loadClass('__TwigTemplate_...', 'Orders/index.ht...', NULL)
+#7 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(423): Twig\Environment->loadTemplate('Orders/index.ht...')
+#8 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(384): Twig\Environment->load('Orders/index.ht...')
+#9 /Users/admin/DEV/workspace/php/tachete/Core/View.php(26): Twig\Environment->render('Orders/index.ht...', Array)
+#10 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(19): Core\View::renderTemplate('Orders/index.ht...', Array)
+#11 [internal function]: App\Controllers\Orders->employeeAction()
+#12 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#13 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('employee', Array)
+#14 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/employee')
+#15 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Views/Orders/index.html' on line 12
+[23-Aug-2020 21:26:39 UTC] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "index.html" (looked into: ../App/Views) in "Orders/orders.html" at line 1.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Loader/FilesystemLoader.php(161): Twig\Loader\FilesystemLoader->findTemplate('index.html')
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(351): Twig\Loader\FilesystemLoader->getCacheKey('index.html')
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(445): Twig\Environment->getTemplateClass('index.html')
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(375): Twig\Environment->loadTemplate('index.html', NULL)
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(497) : eval()'d code(35): Twig\Template->loadTemplate('index.html', 'Orders/orders.h...', 1)
+#5 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(453): __TwigTemplate_bff5c052ac8bb49107b8502cf6f6c5527d3c031a2963619e1ffe8cc26ea3669e->doDisplay(Array, Array)
+#6 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#7 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(432): Twig\Template->display(Array)
+#8 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#9 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(384): Twig\TemplateWrapper->render(Array)
+#10 /Users/admin/DEV/workspace/php/tachete/Core/View.php(26): Twig\Environment->render('Orders/orders.h...', Array)
+#11 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Orders.php(27): Core\View::renderTemplate('Orders/orders.h...', Array)
+#12 [internal function]: App\Controllers\Orders->submitAction()
+#13 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#14 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#15 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('orders/submit')
+#16 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Loader/FilesystemLoader.php' on line 265
+[23-Aug-2020 22:00:44 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Admin not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('admin/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73

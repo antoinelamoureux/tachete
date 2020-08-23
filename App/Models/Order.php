@@ -23,13 +23,25 @@ class Order extends \Core\Model
         }
     }
 
-    public static function getClient()
+    public static function getEmployees()
     {
         try {
             $db = static::getDB();
-            $stmt = $db->query("SELECT * FROM Orders INNER JOIN Customers 
-            ON Orders.CustomerID = Customers.CustomerID"); 
-            $stmt = $db->query("SELECT * FROM Orders");
+            $stmt = $db->query("SELECT Employees.FirstName FROM Employees"); 
+            $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            return $results;
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
+
+    public static function getOrders($employeename)
+    {
+        try {
+            $db = static::getDB();
+            $stmt = $db->query("SELECT * FROM Orders INNER JOIN Employees
+            ON Orders.EmployeeID = Employees.EmployeeID
+            WHERE Employees.FirstName = '$employeename'"); ;
             $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
             return $results;
         } catch (PDOException $e) {

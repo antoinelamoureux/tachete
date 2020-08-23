@@ -13,10 +13,18 @@ class Orders extends \Core\Controller {
         ]);
     }
 
-    public function clientAction() {
-        $clients = Order::getClient();
+    public function employeeAction() {
+        $employees = Order::getEmployees();
         View::renderTemplate('Orders/index.html', [
-            'clients' => $clients
+            'employees' => $employees
+        ]);
+    }
+
+    public function submitAction() {
+        $employeename = $_POST['employee'];
+        $orders = Order::getOrders($employeename);
+        View::renderTemplate('Orders/orders.html', [
+            'orders' => $orders
         ]);
     }
 

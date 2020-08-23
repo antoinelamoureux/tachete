@@ -1,0 +1,22 @@
+{% extends "Orders/index.html" %}
+{% block title %}Commandes{% endblock %}
+{% block content %}
+<br><br>
+<table>
+  <tr>
+  {% for order in orders %}
+  <tr>
+  <td>{{ order.OrderID }}</td>
+  <td>{{ order.CustomerID }}</td>
+  <td>{{ order.ShipName }}</td>
+</tr>
+  {% endfor %}
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+{% endblock %}
