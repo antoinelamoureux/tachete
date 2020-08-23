@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Commandes par client{% endblock %}
+{% block body %}
+    <h2>Espace membre</h2>  
+    <span>Bienvenue, {{ name }} </span><span>{{ firstname }}</span>
+    <p>Votre id de session est: {{ id }}</p>
+    <p>Votre token de connection est: {{ token }}</p>
+    <p>Votre nom d'utilisateur est: {{ username }}</p>
+    <br><br>
+    <div class="container">
+        <span><a href="/orders/client">Liste des commandes</a></span>
+    </div>
+{% endblock %}

@@ -1,0 +1,272 @@
+[23-Aug-2020 08:32:35 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/admin/DE...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(59): class_exists('App\\Controllers...')
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php' on line 17
+[23-Aug-2020 08:32:38 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/admin/DE...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(59): class_exists('App\\Controllers...')
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php' on line 17
+[23-Aug-2020 08:32:39 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/admin/DE...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(59): class_exists('App\\Controllers...')
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php' on line 17
+[23-Aug-2020 08:32:40 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/admin/DE...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(59): class_exists('App\\Controllers...')
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php' on line 17
+[23-Aug-2020 08:32:41 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/admin/DE...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(59): class_exists('App\\Controllers...')
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php' on line 17
+[23-Aug-2020 08:33:02 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unexpected token "operator" of value "/".'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(166): Twig\ExpressionParser->parseExpression()
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TokenParser/BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#5 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(122): Twig\Parser->subparse(NULL, false)
+#6 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#7 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#8 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#9 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(445): Twig\Environment->loadClass('__TwigTemplate_...', 'Login/index.htm...', NULL)
+#10 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(423): Twig\Environment->loadTemplate('Login/index.htm...')
+#11 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(384): Twig\Environment->load('Login/index.htm...')
+#12 /Users/admin/DEV/workspace/php/tachete/Core/View.php(26): Twig\Environment->render('Login/index.htm...', Array)
+#13 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php(10): Core\View::renderTemplate('Login/index.htm...')
+#14 [internal function]: App\Controllers\Login->indexAction()
+#15 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#16 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#17 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#18 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Views/Login/index.html' on line 8
+[23-Aug-2020 08:33:03 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unexpected token "operator" of value "/".'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(166): Twig\ExpressionParser->parseExpression()
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TokenParser/BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#5 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(122): Twig\Parser->subparse(NULL, false)
+#6 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#7 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#8 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#9 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(445): Twig\Environment->loadClass('__TwigTemplate_...', 'Login/index.htm...', NULL)
+#10 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(423): Twig\Environment->loadTemplate('Login/index.htm...')
+#11 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(384): Twig\Environment->load('Login/index.htm...')
+#12 /Users/admin/DEV/workspace/php/tachete/Core/View.php(26): Twig\Environment->render('Login/index.htm...', Array)
+#13 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php(10): Core\View::renderTemplate('Login/index.htm...')
+#14 [internal function]: App\Controllers\Login->indexAction()
+#15 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#16 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#17 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/index')
+#18 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Views/Login/index.html' on line 8
+[23-Aug-2020 09:58:12 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('english/')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 10:06:38 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('register/regist...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 10:07:48 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('register/regist...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 10:07:54 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('register/regist...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 10:43:21 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '}', expecting end of file'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/admin/DE...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(59): class_exists('App\\Controllers...')
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('register/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Register.php' on line 40
+[23-Aug-2020 10:43:23 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '}', expecting end of file'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/admin/DE...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(59): class_exists('App\\Controllers...')
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('register/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Register.php' on line 40
+[23-Aug-2020 10:43:24 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '}', expecting end of file'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Users/admin/DE...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(59): class_exists('App\\Controllers...')
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('register/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Register.php' on line 40
+[23-Aug-2020 10:47:23 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Users not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('users/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[23-Aug-2020 10:47:26 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Users not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('users/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[23-Aug-2020 10:58:10 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Users not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('users/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[23-Aug-2020 10:58:13 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Users not found'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('users/index')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 73
+[23-Aug-2020 10:58:30 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('users/users/ind...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[23-Aug-2020 11:44:13 UTC] Uncaught exception: 'ErrorException' with message 'session_destroy(): Trying to destroy uninitialized session'
+Stack trace: #0 [internal function]: Core\Error::errorHandler(2, 'session_destroy...', '/Users/admin/DE...', 9, Array)
+#1 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Logout.php(9): session_destroy()
+#2 [internal function]: App\Controllers\Logout->indexAction()
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#4 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#5 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('logout/index')
+#6 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Logout.php' on line 9
+[23-Aug-2020 11:44:16 UTC] Uncaught exception: 'ErrorException' with message 'session_destroy(): Trying to destroy uninitialized session'
+Stack trace: #0 [internal function]: Core\Error::errorHandler(2, 'session_destroy...', '/Users/admin/DE...', 9, Array)
+#1 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Logout.php(9): session_destroy()
+#2 [internal function]: App\Controllers\Logout->indexAction()
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#4 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#5 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('logout/index')
+#6 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Logout.php' on line 9
+[23-Aug-2020 13:27:10 UTC] Uncaught exception: 'Exception' with message 'Method generateRandomStringAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php(28): Core\Controller->__call('generateRandomS...', Array)
+#1 [internal function]: App\Controllers\Login->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Controller.php' on line 23
+[23-Aug-2020 13:27:50 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: username'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php(34): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 34, Array)
+#1 [internal function]: App\Controllers\Login->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php' on line 34
+[23-Aug-2020 13:28:30 UTC] Uncaught exception: 'Exception' with message 'Method generateRandomStringAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php(28): Core\Controller->__call('generateRandomS...', Array)
+#1 [internal function]: App\Controllers\Login->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Controller.php' on line 23
+[23-Aug-2020 13:30:24 UTC] Uncaught exception: 'Exception' with message 'Method generateRandomStringAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php(28): Core\Controller->__call('generateRandomS...', Array)
+#1 [internal function]: App\Controllers\Login->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Controller.php' on line 23
+[23-Aug-2020 13:33:59 UTC] Uncaught exception: 'Exception' with message 'Method generateRandomStringAction not found in controllerApp\Controllers\Login'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Login.php(28): Core\Controller->__call('generateRandomS...', Array)
+#1 [internal function]: App\Controllers\Login->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Controller.php' on line 23
+[23-Aug-2020 14:22:06 UTC] Uncaught exception: 'ErrorException' with message 'Trying to access array offset on value of type null'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php(31): Core\Error::errorHandler(8, 'Trying to acces...', '/Users/admin/DE...', 31, Array)
+#1 [internal function]: App\Controllers\Users->indexAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('Users/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php' on line 31
+[23-Aug-2020 14:22:18 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: name'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php(31): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 31, Array)
+#1 [internal function]: App\Controllers\Users->indexAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('users/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php' on line 31
+[23-Aug-2020 14:22:21 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: name'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php(31): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 31, Array)
+#1 [internal function]: App\Controllers\Users->indexAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('users/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php' on line 31
+[23-Aug-2020 14:22:24 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: name'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php(31): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 31, Array)
+#1 [internal function]: App\Controllers\Users->indexAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('users/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php' on line 31
+[23-Aug-2020 14:22:35 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: name'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php(31): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 31, Array)
+#1 [internal function]: App\Controllers\Users->indexAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('Users/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php' on line 31
+[23-Aug-2020 14:24:00 UTC] Uncaught exception: 'ErrorException' with message 'Undefined offset: 1'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php(32): Core\Error::errorHandler(8, 'Undefined offse...', '/Users/admin/DE...', 32, Array)
+#1 [internal function]: App\Controllers\Users->indexAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('users/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php' on line 32
+[23-Aug-2020 14:24:02 UTC] Uncaught exception: 'ErrorException' with message 'Undefined offset: 1'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php(32): Core\Error::errorHandler(8, 'Undefined offse...', '/Users/admin/DE...', 32, Array)
+#1 [internal function]: App\Controllers\Users->indexAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('users/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php' on line 32
+[23-Aug-2020 14:24:03 UTC] Uncaught exception: 'ErrorException' with message 'Undefined offset: 1'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php(32): Core\Error::errorHandler(8, 'Undefined offse...', '/Users/admin/DE...', 32, Array)
+#1 [internal function]: App\Controllers\Users->indexAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('users/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php' on line 32
+[23-Aug-2020 14:28:22 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: fistname'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php(32): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 32, Array)
+#1 [internal function]: App\Controllers\Users->indexAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('Users/index')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Users.php' on line 32

@@ -1,13 +1,11 @@
-CREATE TABLE posts (
+CREATE TABLE Users (
     id int(11) NOT NULL AUTO_INCREMENT,
-    title varchar(128) NOT NULL,
-    content text NOT NULL,
-    created_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    PRIMARY KEY (id),
-    KEY created_at (created_at)
+    name varchar(30) NOT NULL,
+    firstname varchar(30) NOT NULL,
+    username varchar(30) NOT NULL,
+    password BINARY(60) NOT NULL,
+	email varchar(128) NOT NULL,
+    PRIMARY KEY (id)
  	) ENGINE=InnoDB DEFAULT CHARSET=utf8;
     
-INSERT INTO posts (title, content) VALUES
-('First post', 'This is a really interestiong post.'),
-('Second post', 'This is a fascinating post!'),
-('Third post', 'This is a very informative post.');
+INSERT INTO users(name, firstname, username, password, email) VALUES ('Lamoureux', 'Antoine', 'antoine', 'afpa2020', 'antoine@afpa.com'), ('Dupont', 'Pauline', 'pauline', 'monnmotdepasse', 'pauline@yahoo.fr')
