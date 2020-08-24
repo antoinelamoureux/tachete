@@ -23,9 +23,8 @@ class Product extends \Core\Model
     public static function getProduct($output)
     {
         try {
-            echo "$output";
             $db = static::getDB();
-            $stmt = $db->query("SELECT * FROM products WHERE product_name = '$output'");
+            $stmt = $db->query("SELECT * FROM products WHERE ProductName = '$output'");
             $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
             return $results;
         } catch (PDOException $e) {
@@ -33,13 +32,13 @@ class Product extends \Core\Model
         }
     }
 
-    public static function setPrice($product)
+    public static function setPrice($product, $newprice)
     {
         try {
             $db = static::getDB();
-            $stmt = $db->query("UPDATE products SET unit_price = $newprice WHERE product_name = '$product'");
-            $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
-            return $results;
+            $stmt = $db->query("UPDATE products SET UnitPrice = '$newprice' WHERE ProductName = '$product'");
+            /* $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+            return $results; */
         } catch (PDOException $e) {
             echo $e->getMessage();
         }

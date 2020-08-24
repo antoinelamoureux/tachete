@@ -4,7 +4,7 @@
     <h1>Modifier le prix d'un produit</h1>
  <br><br>
     {% for product in products %}
-    <a href="/products/submit" name="product">{{ product.ProductName }}</a><br/>
+    <a href="submit?product={{ product.ProductName }}"> {{ product.ProductName }} </a><br/>
         {% endfor %}
 {% block content %}
 {% endblock %}

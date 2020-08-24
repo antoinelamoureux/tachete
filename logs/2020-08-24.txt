@@ -771,3 +771,75 @@ Thrown in 'C:\DEV\workspace\php\tachete\Core\Router.php' on line 77
 Stack trace: #0 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('ggfdg/gfdgfdgf')
 #1 {main}
 Thrown in 'C:\DEV\workspace\php\tachete\Core\Router.php' on line 73
+[24-Aug-2020 20:52:05 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/'/prod...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[24-Aug-2020 20:53:01 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/'/prod...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[24-Aug-2020 20:53:07 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/'Gumbr...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[24-Aug-2020 20:53:19 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/'Manji...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[24-Aug-2020 20:53:22 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/Gravad...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[24-Aug-2020 20:54:48 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/Laughi...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[24-Aug-2020 21:04:05 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: submit'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Products.php' on line 17
+[24-Aug-2020 21:40:26 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Products.php(25): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 25, Array)
+#1 [internal function]: App\Controllers\Products->setPriceAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('setprice', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/setpri...')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Products.php' on line 25
+[24-Aug-2020 21:41:21 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Products.php(25): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 25, Array)
+#1 [internal function]: App\Controllers\Products->setPriceAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('setprice', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/setpri...')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Products.php' on line 25
+[24-Aug-2020 21:41:57 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Products.php(25): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 25, Array)
+#1 [internal function]: App\Controllers\Products->setpriceAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('setprice', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/setpri...')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Products.php' on line 25
+[24-Aug-2020 21:42:54 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Products.php(25): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 25, Array)
+#1 [internal function]: App\Controllers\Products->setpriceAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('setprice', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/setpri...')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Products.php' on line 25
+[24-Aug-2020 21:46:44 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/produc...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
+[24-Aug-2020 21:47:09 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('products/produc...')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77

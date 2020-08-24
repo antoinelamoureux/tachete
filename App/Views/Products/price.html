@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Commandes{% endblock %}
+{% block body %}
+<h2>Modifier le prix du produit: {% for product in products %}{{ product.ProductName }}{% endfor %}</h2>
+<table>
+  <tr>
+  {% for product in products %}
+  <tr>
+  <td>{{ product.ProductID }}</td>
+  <td>{{ product.ProductName }}</td>
+  <td>{{ product.UnitPrice }}</td>
+  <td>{{ product.UnitsInStock }}</td>
+  <td>{{ product.UnitsOnOrder}}</td>
+</tr>
+  {% endfor %}
+</table>
+<br><br>
+<p>Indiquez le nouveau prix pour ce produit :</p>
+<form action="setprice" method="POST">
+    <input type="hidden" name="product" value="{% for product in products %}{{ product.ProductName }}{% endfor %}">
+    <input type="numeric" name="newprice">
+    <input type="submit" name="valider" value="Modifier">
+</form>
+{% block content %}
+{% endblock %}
+{% endblock %}
