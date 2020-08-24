@@ -1,0 +1,773 @@
+[24-Aug-2020 08:55:18 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Hytuytytu not found'
+Stack trace: #0 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('hytuytytu/trytr...')
+#1 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\Core\Router.php' on line 73
+[24-Aug-2020 10:26:12 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 9
+[24-Aug-2020 10:26:38 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 9
+[24-Aug-2020 10:26:41 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 9
+[24-Aug-2020 10:28:07 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 9
+[24-Aug-2020 10:29:42 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 9
+[24-Aug-2020 10:29:44 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 9
+[24-Aug-2020 10:31:54 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 10:31:56 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 10:32:52 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unexpected token "end of print statement" of value "".'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(166): Twig\ExpressionParser->parseExpression()
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TokenParser\ForTokenParser.php(51): Twig\Parser->subparse(Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(209): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(209): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(122): Twig\Parser->subparse(NULL, false)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(445): Twig\Environment->loadClass('__TwigTemplate_...', 'Products/index....', NULL)
+#12 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(423): Twig\Environment->loadTemplate('Products/index....')
+#13 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\Environment->load('Products/index....')
+#14 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#15 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#16 [internal function]: App\Controllers\Products->indexAction()
+#17 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#18 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#19 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#20 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 10:32:53 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unexpected token "end of print statement" of value "".'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(166): Twig\ExpressionParser->parseExpression()
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TokenParser\ForTokenParser.php(51): Twig\Parser->subparse(Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(209): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(209): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(122): Twig\Parser->subparse(NULL, false)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(445): Twig\Environment->loadClass('__TwigTemplate_...', 'Products/index....', NULL)
+#12 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(423): Twig\Environment->loadTemplate('Products/index....')
+#13 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\Environment->load('Products/index....')
+#14 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#15 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#16 [internal function]: App\Controllers\Products->indexAction()
+#17 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#18 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#19 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#20 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 10:32:54 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unexpected token "end of print statement" of value "".'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(166): Twig\ExpressionParser->parseExpression()
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TokenParser\ForTokenParser.php(51): Twig\Parser->subparse(Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(209): Twig\TokenParser\ForTokenParser->parse(Object(Twig\Token))
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TokenParser\BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(209): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Parser.php(122): Twig\Parser->subparse(NULL, false)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#11 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(445): Twig\Environment->loadClass('__TwigTemplate_...', 'Products/index....', NULL)
+#12 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(423): Twig\Environment->loadTemplate('Products/index....')
+#13 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\Environment->load('Products/index....')
+#14 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#15 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#16 [internal function]: App\Controllers\Products->indexAction()
+#17 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#18 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#19 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#20 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 10:34:03 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 10:34:04 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 10:34:22 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 10:34:27 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:41:59 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:42:11 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:46:32 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:46:50 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:46:51 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:46:58 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:46:58 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:46:59 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:47:27 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:48:03 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:48:14 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 11:48:17 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 11:48:29 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 11:48:30 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 11:48:33 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/')
+#1 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\Core\Router.php' on line 77
+[24-Aug-2020 11:48:38 UTC] Uncaught exception: 'Twig\Error\RuntimeError' with message 'An exception has been thrown during the rendering of a template ("Array to string conversion").'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(51): Twig\Template->displayBlock('body', Array, Array)
+#1 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_8e06a79e2ec54d39386aec99df998ab8d74f0c3abd4ee6eae69379de91edc6a8->doDisplay(Array, Array)
+#2 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#3 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(497) : eval()'d code(37): Twig\Template->display(Array, Array)
+#4 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(453): __TwigTemplate_45a353e343a7d8e5281bdcd613110e4f182384aa7ec6e5e5607864ef4a72e9bb->doDisplay(Array, Array)
+#5 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Template.php(432): Twig\Template->display(Array)
+#7 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#8 C:\DEV\workspace\php\tachete\vendor\twig\twig\src\Environment.php(384): Twig\TemplateWrapper->render(Array)
+#9 C:\DEV\workspace\php\tachete\Core\View.php(26): Twig\Environment->render('Products/index....', Array)
+#10 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(12): Core\View::renderTemplate('Products/index....', Array)
+#11 [internal function]: App\Controllers\Products->indexAction()
+#12 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#13 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#14 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#15 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Views\Products\index.html' on line 7
+[24-Aug-2020 11:49:06 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(11): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 11, Array)
+#1 [internal function]: App\Controllers\Products->indexAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 11
+[24-Aug-2020 11:49:07 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(11): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 11, Array)
+#1 [internal function]: App\Controllers\Products->indexAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 11
+[24-Aug-2020 11:49:09 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(11): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 11, Array)
+#1 [internal function]: App\Controllers\Products->indexAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 11
+[24-Aug-2020 11:50:27 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\DEV\\workspac...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(59): class_exists('App\\Controllers...')
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 11
+[24-Aug-2020 11:50:28 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\DEV\\workspac...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(59): class_exists('App\\Controllers...')
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 11
+[24-Aug-2020 11:50:34 UTC] Uncaught exception: 'ParseError' with message 'syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)'
+Stack trace: #0 C:\DEV\workspace\php\tachete\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\DEV\\workspac...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 [internal function]: spl_autoload_call('App\\Controllers...')
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(59): class_exists('App\\Controllers...')
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 11
+[24-Aug-2020 11:51:59 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: ProductName'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(11): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 11, Array)
+#1 [internal function]: App\Controllers\Products->indexAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 11
+[24-Aug-2020 11:52:00 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: ProductName'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(11): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 11, Array)
+#1 [internal function]: App\Controllers\Products->indexAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 11
+[24-Aug-2020 11:52:00 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: ProductName'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(11): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 11, Array)
+#1 [internal function]: App\Controllers\Products->indexAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 11
+[24-Aug-2020 11:53:43 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(11): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 11, Array)
+#1 [internal function]: App\Controllers\Products->indexAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('index', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/index')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 11
+[24-Aug-2020 11:55:23 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 12:05:03 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 12:06:30 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 12:20:27 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Models\Product.php(27): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 27, Array)
+#1 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(19): App\Models\Product::getProduct(Array)
+#2 [internal function]: App\Controllers\Products->submitAction()
+#3 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#4 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#5 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#6 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Models\Product.php' on line 27
+[24-Aug-2020 12:21:36 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Models\Product.php(27): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 27, Array)
+#1 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(19): App\Models\Product::getProduct(Array)
+#2 [internal function]: App\Controllers\Products->submitAction()
+#3 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#4 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#5 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#6 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Models\Product.php' on line 27
+[24-Aug-2020 12:22:20 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Models\Product.php(26): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 26, Array)
+#1 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(19): App\Models\Product::getProduct(Array)
+#2 [internal function]: App\Controllers\Products->submitAction()
+#3 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#4 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#5 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#6 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Models\Product.php' on line 26
+[24-Aug-2020 12:24:57 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Models\Product.php(26): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 26, Array)
+#1 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(19): App\Models\Product::getProduct(Array)
+#2 [internal function]: App\Controllers\Products->submitAction()
+#3 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#4 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#5 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#6 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Models\Product.php' on line 26
+[24-Aug-2020 12:24:59 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Models\Product.php(26): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 26, Array)
+#1 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(19): App\Models\Product::getProduct(Array)
+#2 [internal function]: App\Controllers\Products->submitAction()
+#3 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#4 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#5 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#6 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Models\Product.php' on line 26
+[24-Aug-2020 12:25:09 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Models\Product.php(26): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 26, Array)
+#1 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(19): App\Models\Product::getProduct(Array)
+#2 [internal function]: App\Controllers\Products->submitAction()
+#3 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#4 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#5 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#6 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Models\Product.php' on line 26
+[24-Aug-2020 12:25:24 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Models\Product.php(26): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 26, Array)
+#1 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(22): App\Models\Product::getProduct(Array)
+#2 [internal function]: App\Controllers\Products->submitAction()
+#3 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#4 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#5 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#6 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Models\Product.php' on line 26
+[24-Aug-2020 12:25:27 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Models\Product.php(26): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 26, Array)
+#1 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(22): App\Models\Product::getProduct(Array)
+#2 [internal function]: App\Controllers\Products->submitAction()
+#3 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#4 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#5 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#6 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Models\Product.php' on line 26
+[24-Aug-2020 12:26:58 UTC] Uncaught exception: 'ErrorException' with message 'Array to string conversion'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Models\Product.php(26): Core\Error::errorHandler(8, 'Array to string...', 'C:\\DEV\\workspac...', 26, Array)
+#1 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(20): App\Models\Product::getProduct(Array)
+#2 [internal function]: App\Controllers\Products->submitAction()
+#3 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#4 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#5 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#6 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Models\Product.php' on line 26
+[24-Aug-2020 12:28:15 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 12:28:19 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 12:32:16 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 12:32:46 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 12:40:32 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 12:40:35 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: product'
+Stack trace: #0 C:\DEV\workspace\php\tachete\App\Controllers\Products.php(17): Core\Error::errorHandler(8, 'Undefined index...', 'C:\\DEV\\workspac...', 17, Array)
+#1 [internal function]: App\Controllers\Products->submitAction()
+#2 C:\DEV\workspace\php\tachete\Core\Controller.php(18): call_user_func_array(Array, Array)
+#3 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('submit', Array)
+#4 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('products/submit')
+#5 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\App\Controllers\Products.php' on line 17
+[24-Aug-2020 13:37:00 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Osts not found'
+Stack trace: #0 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('osts/index')
+#1 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\Core\Router.php' on line 73
+[24-Aug-2020 13:38:13 UTC] Uncaught exception: 'Exception' with message 'Method ordersAction not found in controllerApp\Controllers\Orders'
+Stack trace: #0 C:\DEV\workspace\php\tachete\Core\Router.php(66): Core\Controller->__call('orders', Array)
+#1 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('orders/orders')
+#2 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\Core\Controller.php' on line 23
+[24-Aug-2020 13:38:42 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('ordiuiuyi')
+#1 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\Core\Router.php' on line 77
+[24-Aug-2020 13:38:56 UTC] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Ggfdg not found'
+Stack trace: #0 C:\DEV\workspace\php\tachete\public\index.php(57): Core\Router->dispatch('ggfdg/gfdgfdgf')
+#1 {main}
+Thrown in 'C:\DEV\workspace\php\tachete\Core\Router.php' on line 73

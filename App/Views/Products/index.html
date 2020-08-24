@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Commandes par client{% endblock %}
+{% block body %}
+    <h1>Modifier le prix d'un produit</h1>
+ <br><br>
+    {% for product in products %}
+    <a href="/products/submit" name="product">{{ product.ProductName }}</a><br/>
+        {% endfor %}
+{% block content %}
+{% endblock %}
+{% endblock %}
