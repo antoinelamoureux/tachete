@@ -27,7 +27,7 @@ class Order extends \Core\Model
     {
         try {
             $db = static::getDB();
-            $stmt = $db->query("SELECT Employees.FirstName FROM Employees"); 
+            $stmt = $db->query("SELECT Employees.FirstName FROM Employees");
             $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
             return $results;
         } catch (PDOException $e) {
@@ -41,11 +41,30 @@ class Order extends \Core\Model
             $db = static::getDB();
             $stmt = $db->query("SELECT * FROM Orders INNER JOIN Employees
             ON Orders.EmployeeID = Employees.EmployeeID
-            WHERE Employees.FirstName = '$employeename'"); ;
+            WHERE Employees.FirstName = '$employeename'");
             $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
             return $results;
         } catch (PDOException $e) {
             echo $e->getMessage();
         }
+    }
+
+    public static function getClients()
+    {
+        try {
+            $db = static::getDB();
+            $sth = $db->prepare('SELECT CompanyName FROM customers');
+            $sth->execute();
+            while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
+                $results = array($row["Name"], $row["CountryCode"]);
+            }
+            return $results;
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
+
+    public static function getClientOrders($client)
+    {
     }
 }
