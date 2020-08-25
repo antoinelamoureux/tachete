@@ -1,0 +1,35 @@
+[25-Aug-2020 21:54:13 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: Name'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Models/Order.php(59): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 59, Array)
+#1 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Clients.php(10): App\Models\Order::getClients()
+#2 [internal function]: App\Controllers\Clients->indexAction()
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#4 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#5 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('clients/index')
+#6 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Models/Order.php' on line 59
+[25-Aug-2020 22:06:17 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: employee'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Clients.php(17): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 17, Array)
+#1 [internal function]: App\Controllers\Clients->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('clients/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Clients.php' on line 17
+[25-Aug-2020 22:22:41 UTC] Uncaught exception: 'ErrorException' with message 'PDOStatement::execute() expects parameter 1 to be array, string given'
+Stack trace: #0 [internal function]: Core\Error::errorHandler(2, 'PDOStatement::e...', '/Users/admin/DE...', 74, Array)
+#1 /Users/admin/DEV/workspace/php/tachete/App/Models/Order.php(74): PDOStatement->execute('Vins et alcools...')
+#2 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Clients.php(18): App\Models\Order::getClientOrders('Vins et alcools...')
+#3 [internal function]: App\Controllers\Clients->submitAction()
+#4 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#5 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#6 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('clients/submit')
+#7 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Models/Order.php' on line 74
+[25-Aug-2020 22:31:06 UTC] Uncaught exception: 'ErrorException' with message 'Undefined index: client'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Clients.php(17): Core\Error::errorHandler(8, 'Undefined index...', '/Users/admin/DE...', 17, Array)
+#1 [internal function]: App\Controllers\Clients->submitAction()
+#2 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#3 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('submit', Array)
+#4 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('clients/submit')
+#5 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Controllers/Clients.php' on line 17

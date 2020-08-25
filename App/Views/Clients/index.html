@@ -7,7 +7,7 @@
  <select name="client" id="">
     <option>Liste des clients</option>
     {% for client in clients %}
-    <option>{{ client.CompagnyName }}</option>
+    <option>{{ client }}</option>
         {% endfor %}
     </select>&nbsp;
     <input type="submit" name="submit" value="Séléctionner"/>

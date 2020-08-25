@@ -14,8 +14,8 @@ class Clients extends \Core\Controller {
     }
 
     public function submitAction() {
-        $employeename = $_POST['employee'];
-        $orders = Order::getOrders($employeename);
+        $client = $_POST['client'];
+        $orders = Order::getClientOrders($client);
         View::renderTemplate('Clients/orders.html', [
             'orders' => $orders
         ]);

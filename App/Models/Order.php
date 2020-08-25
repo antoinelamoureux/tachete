@@ -55,8 +55,9 @@ class Order extends \Core\Model
             $db = static::getDB();
             $sth = $db->prepare('SELECT CompanyName FROM customers');
             $sth->execute();
+            $results = [];
             while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
-                $results = array($row["Name"], $row["CountryCode"]);
+                array_push($results, $row["CompanyName"]);
             }
             return $results;
         } catch (PDOException $e) {
@@ -66,5 +67,15 @@ class Order extends \Core\Model
 
     public static function getClientOrders($client)
     {
+        try {
+            $db = static::getDB();
+            $sth = $db->prepare('SELECT * FROM orders INNER JOIN customers ON orders.CustomerID = customers.CustomerID WHERE orders.ShipName = ?');
+            $sth->bindValue(1, $client, PDO::PARAM_STR);
+            $sth->execute();
+            $results = $sth->fetchAll(PDO::FETCH_ASSOC); 
+            return $results;
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
     }
 }
