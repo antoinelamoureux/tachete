@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Commandes par client{% endblock %}
+{% block body %}
+    <h1>Liste des commandes par client</h1>
+ <br><br>
+ <form action="/clients/submit" method="post">
+ <select name="client" id="">
+    <option>Liste des clients</option>
+    {% for client in clients %}
+    <option>{{ client.CompagnyName }}</option>
+        {% endfor %}
+    </select>&nbsp;
+    <input type="submit" name="submit" value="Séléctionner"/>
+</form>
+{% block content %}
+{% endblock %}
+{% endblock %}
