@@ -78,4 +78,49 @@ class Order extends \Core\Model
             echo $e->getMessage();
         }
     }
+
+    public static function getLocations()
+    {
+        try {
+            $db = static::getDB();
+            $sth = $db->prepare('SELECT City FROM customers');
+            $sth->execute();
+            $results = [];
+            while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
+                array_push($results, $row["City"]);
+            }
+            return $results;
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
+
+    public static function getLocationOrders($city)
+    {
+        try {
+            $db = static::getDB();
+            $sth = $db->prepare('SELECT * FROM orders INNER JOIN customers ON orders.CustomerID = customers.CustomerID WHERE orders.ShipCity = ?');
+            $sth->bindValue(1, $city, PDO::PARAM_STR);
+            $sth->execute();
+            $results = $sth->fetchAll(PDO::FETCH_ASSOC); 
+            return $results;
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
+
+    public static function getDurationOrders($startdate, $enddate)
+    {
+        try {
+            $db = static::getDB();
+            $sth = $db->prepare('SELECT * FROM orders WHERE OrderDate BETWEEN ? AND ?');
+            $sth->bindValue(1, $startdate, PDO::PARAM_STR);
+            $sth->bindValue(2, $enddate, PDO::PARAM_STR);
+            $sth->execute();
+            $results = $sth->fetchAll(PDO::FETCH_ASSOC); 
+            return $results;
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+        }
+    }
 }

@@ -1,17 +1,20 @@
 {% extends "base.html" %}
 {% block title %}Commandes par client{% endblock %}
+{% block stylesheets %}{{parent()}}{% endblock %}
 {% block body %}
-    <h2>Espace membre</h2>  
-    <span>Bienvenue, {{ name }} </span><span>{{ firstname }}</span>
-    <p>Votre id de session est: {{ id }}</p>
-    <p>Votre token de connection est: {{ token }}</p>
-    <p>Votre nom d'utilisateur est: {{ username }}</p>
-    <br><br>
-    <div class="container">
-        <a href="/orders/employee">Liste des commandes par employé</a><br/>
-        <a href="/products/index">Modifié le prix d'un produit</a><br/>
-        <a href="/clients/index">Liste des clients pour un type de produits</a><br/>
-        <a href="/orders/employee">Liste des commandes par lieu</a><br/>
-        <a href="/orders/employee">Liste des commandes par intervalle de temps</a><br/>
-    </div>
+<div class="header">
+    <div class="title">Espace membre</div>
+    <div class="subtitle">Bienvenue, {{ name }} {{ firstname }}</div>
+</div>
+<p>Votre id de session est: {{ id }}</p>
+<p>Votre token de connection est: {{ token }}</p>
+<p>Votre nom d'utilisateur est: {{ username }}</p>
+<br><br>
+<div class="container">
+    <a href="/orders/employee">Liste des commandes par employé</a><br />
+    <a href="/products/index">Modifié le prix d'un produit</a><br />
+    <a href="/clients/index">Liste des clients pour un type de produits</a><br />
+    <a href="/locations/index">Liste des commandes par lieu</a><br />
+    <a href="/durations/index">Liste des commandes par intervalle de temps</a><br />
+</div>
 {% endblock %}
