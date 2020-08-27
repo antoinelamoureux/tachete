@@ -1,9 +1,18 @@
 {% extends "base.html" %}
 {% block title %}Home{% endblock %}
 {% block body %}
-    <div class="title">Bonjour</div>
-    <div class="subtitle">Bienvenue sur Invoice</div>
-    <p>Invoice est un service de gestion de factures en ligne innovant!</p>
+<div id="home-container">
+    <div id="main-content">
+        <div>
+            <div class="hint">NOUVEAUTÉ</div>
+            <div class="bigtitle" id="main-text">Gérer rapidement<br> toutes vos factures.</div>
+            <div class="bigtext">Profact est un service de gestion de factures<br> en ligne innovant!</div>
+    <br><br>
     <button class="button" type="button"><a href="/login/index">Se connecter</a></button>
     <button class="button" type="button"><a href="/register/index">Créer un compte</a></button>
+        </div>
+        <div id="main-image"></div>
+    </div>
+
+</div>
 {% endblock %}

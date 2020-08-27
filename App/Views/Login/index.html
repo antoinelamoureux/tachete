@@ -1,25 +1,26 @@
 {% extends "base.html" %}
-{% block title %}Commandes par client{% endblock %}
+{% block title %}S'identifier{% endblock %}
 {% block body %}
-    <h2>S'identifier</h2>
+<div class="title">S'identifier</div>
+<div class="subtitle">Merci d'entrer vos identifiants</div>
  <br>
  <div class="wrapper">
-    <p>Please fill in your credentials to login.</p>
+    <p>Entrez vos identifiants pour accèder à l'espace membre.</p>
     <form action="/login/submit" method="post">
-        <div class="">
-            <label>Username</label>
-            <input type="text" name="username" class="form-control" value="">
+        <div class="form-group">
+            <label class="bigtext">Identifiant: </label>
+            <input type="text" name="username" class="textbox" value="">
             <span class="help-block"></span>
         </div>    
         <div class="form-group">
-            <label>Password</label>
-            <input type="password" name="password" class="form-control">
+            <label class="bigtext">Mode de passe: </label>
+            <input type="text" name="password" class="textbox">
             <span class="help-block"></span>
         </div>
         <div class="form-group">
-            <input type="submit" class="btn btn-primary" value="Login">
+            <input type="submit" class="button" value="Se connecter">
         </div>
-        <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
+        <p>Vous n'avez pas de compte ? <a href="register.php">Créer un compte</a>.</p>
     </form>
 </div>    
 {% endblock %}
