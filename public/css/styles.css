@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
 html, body, html * {
     font-family: 'Roboto', sans-serif;
@@ -29,14 +31,22 @@ nav {
     box-shadow: 0px 0px 10px 5px rgba(150, 147, 173, 0.1);
 }
 
-#logo-img {
-    justify-self: start;
+.nav-link {
+    font-weight: 400;
+    color: rgb(117, 117, 117);
 }
 
 .nav-option:active {
-    color: rgb(95, 123, 235);
     border-bottom: 4px solid rgb(95, 123, 235);
     margin-bottom: -20px;
+    color: rgb(95, 123, 235);
+}
+
+#logo-img {
+    align-self: end;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
 }
 
 #menu-left {
@@ -61,10 +71,10 @@ nav {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    min-height: calc(100vh);
 }
 
 .block {
-    margin-top: 150px;
     padding: 50px 50px 50px 50px;
     background-color: white;
     border-radius: 20px;
@@ -73,7 +83,7 @@ nav {
 
 #home-container {
     margin: 80px 80px 80px 80px;
-    transition: 0.4s ease-out;
+    transition: all 0.4s ease-out;
 }
 
 #main-content {
@@ -144,13 +154,13 @@ nav {
 
 .button {
     margin-right: 10px;
-    padding: 0;
+    padding: 12px;
     border: none;
     background: none;
-    padding: 10px 10px 10px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: rgb(95, 123, 235);
     color: white;
+    transition: all 0.2s ease-in;
 }
 
 .button a {
@@ -162,6 +172,10 @@ nav {
     background-color: rgb(233, 123, 79);
 }
 
+#nav-button:hover {
+    background-color: rgb(255, 221, 208);
+}
+
 #logo {
     margin-left: 10px;
     font-weight: 700;
@@ -170,30 +184,22 @@ nav {
 }
 
 a {
-    color: rgb(141, 141, 141);
-}
-
-a:link {
     text-decoration: none;
-    color: rgb(141, 141, 141);
+    font-weight: 400;
+    color: rgb(95, 123, 235);
 }
 
-/* a:visited {
+a:visited {
     text-decoration: none;
 }
 
 a:focus {
-    color: rgb(0, 0, 0);
-}
-
-a:hover {
-    color: rgb(132, 132, 255);
+    text-decoration: none;
 }
 
 a:active {
     text-decoration: none;
-    color: rgb(0, 0, 0);
-} */
+}
 
 input[type="text" i] {
     display: block;
@@ -208,7 +214,7 @@ input[type="text" i] {
     color: rgb(95, 95, 112);
     font-size: 20px;
     font-weight: 400;
-    transition: 0.4s ease-out;
+    transition: all 0.4s ease-out;
 }
 
 input[type="text" i]:focus {
@@ -216,12 +222,70 @@ input[type="text" i]:focus {
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
+    position: relative;
+    height: 250px;
     background-color: rgb(51, 51, 51);
-    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+
+}
+
+.footer-content {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+}
+
+.footer-text {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: rgb(153, 153, 153);
+}
+
+.bold {
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.social-medias{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.footer-button{
+    margin-right: 10px;
+    height: 1em;
+    width: 1em;
+    padding: 0;
+    border: none;
+    background: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+    background-color: rgb(92, 92, 92);
+    color: rgb(255, 255, 255);
     text-align: center;
+}
+.fa {
+    margin-left: -1px;
+    font-size: 18px;
+}
+
+.material-icons {
+    color: rgb(95, 123, 235);
+}
+
+.overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9); 
+    transition: all 0.4s ease-in-out;
+}
+
+.document-content {
+    position : relative;
 }

@@ -1,0 +1,78 @@
+[28-Aug-2020 16:42:12 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unknown "url" function.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(461): Twig\ExpressionParser->getFunctionNodeClass('url', 76)
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(243): Twig\ExpressionParser->getFunctionNode('url', 76)
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(166): Twig\ExpressionParser->parseExpression()
+#5 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TokenParser/BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#6 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(122): Twig\Parser->subparse(NULL, false)
+#8 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#11 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(445): Twig\Environment->loadClass('__TwigTemplate_...', 'base.html', NULL)
+#12 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(375): Twig\Environment->loadTemplate('base.html', NULL)
+#13 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(497) : eval()'d code(35): Twig\Template->loadTemplate('base.html', 'Home/index.html', 1)
+#14 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(453): __TwigTemplate_1b44d226ad4d022c79a951208540ebe0a456066a84b83a3bd65733e1ae597971->doDisplay(Array, Array)
+#15 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#16 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(432): Twig\Template->display(Array)
+#17 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#18 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(384): Twig\TemplateWrapper->render(Array)
+#19 /Users/admin/DEV/workspace/php/tachete/Core/View.php(26): Twig\Environment->render('Home/index.html', Array)
+#20 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Home.php(18): Core\View::renderTemplate('Home/index.html')
+#21 [internal function]: App\Controllers\Home->indexAction()
+#22 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#23 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#24 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('')
+#25 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Views/base.html' on line 76
+[28-Aug-2020 16:42:12 UTC] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unknown "url" function. in /Users/admin/DEV/workspace/php/tachete/App/Views/base.html:76
+Stack trace:
+#0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(461): Twig\ExpressionParser->getFunctionNodeClass('url', 76)
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(243): Twig\ExpressionParser->getFunctionNode('url', 76)
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(166): Twig\ExpressionParser->parseExpression()
+#5 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TokenParser/BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#6 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(209): Twig in /Users/admin/DEV/workspace/php/tachete/App/Views/base.html on line 76
+[28-Aug-2020 16:42:13 UTC] Uncaught exception: 'Twig\Error\SyntaxError' with message 'Unknown "url" function.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(461): Twig\ExpressionParser->getFunctionNodeClass('url', 76)
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(243): Twig\ExpressionParser->getFunctionNode('url', 76)
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(166): Twig\ExpressionParser->parseExpression()
+#5 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TokenParser/BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#6 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(209): Twig\TokenParser\BlockTokenParser->parse(Object(Twig\Token))
+#7 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(122): Twig\Parser->subparse(NULL, false)
+#8 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(735): Twig\Parser->parse(Object(Twig\TokenStream))
+#9 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(793): Twig\Environment->parse(Object(Twig\TokenStream))
+#10 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(482): Twig\Environment->compileSource(Object(Twig\Source))
+#11 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(445): Twig\Environment->loadClass('__TwigTemplate_...', 'base.html', NULL)
+#12 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(375): Twig\Environment->loadTemplate('base.html', NULL)
+#13 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(497) : eval()'d code(35): Twig\Template->loadTemplate('base.html', 'Home/index.html', 1)
+#14 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(453): __TwigTemplate_1b44d226ad4d022c79a951208540ebe0a456066a84b83a3bd65733e1ae597971->doDisplay(Array, Array)
+#15 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(420): Twig\Template->displayWithErrorHandling(Array, Array)
+#16 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Template.php(432): Twig\Template->display(Array)
+#17 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TemplateWrapper.php(47): Twig\Template->render(Array, Array)
+#18 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Environment.php(384): Twig\TemplateWrapper->render(Array)
+#19 /Users/admin/DEV/workspace/php/tachete/Core/View.php(26): Twig\Environment->render('Home/index.html', Array)
+#20 /Users/admin/DEV/workspace/php/tachete/App/Controllers/Home.php(18): Core\View::renderTemplate('Home/index.html')
+#21 [internal function]: App\Controllers\Home->indexAction()
+#22 /Users/admin/DEV/workspace/php/tachete/Core/Controller.php(18): call_user_func_array(Array, Array)
+#23 /Users/admin/DEV/workspace/php/tachete/Core/Router.php(66): Core\Controller->__call('index', Array)
+#24 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('')
+#25 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/App/Views/base.html' on line 76
+[28-Aug-2020 16:42:13 UTC] PHP Fatal error:  Uncaught Twig\Error\SyntaxError: Unknown "url" function. in /Users/admin/DEV/workspace/php/tachete/App/Views/base.html:76
+Stack trace:
+#0 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(461): Twig\ExpressionParser->getFunctionNodeClass('url', 76)
+#1 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(243): Twig\ExpressionParser->getFunctionNode('url', 76)
+#2 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(183): Twig\ExpressionParser->parsePrimaryExpression()
+#3 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/ExpressionParser.php(78): Twig\ExpressionParser->getPrimary()
+#4 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(166): Twig\ExpressionParser->parseExpression()
+#5 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/TokenParser/BlockTokenParser.php(47): Twig\Parser->subparse(Array, true)
+#6 /Users/admin/DEV/workspace/php/tachete/vendor/twig/twig/src/Parser.php(209): Twig in /Users/admin/DEV/workspace/php/tachete/App/Views/base.html on line 76
+[28-Aug-2020 17:39:10 UTC] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 /Users/admin/DEV/workspace/php/tachete/public/index.php(57): Core\Router->dispatch('login/register....')
+#1 {main}
+Thrown in '/Users/admin/DEV/workspace/php/tachete/Core/Router.php' on line 77
